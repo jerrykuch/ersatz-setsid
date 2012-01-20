@@ -1,0 +1,29 @@
+Synopsis:
+
+  setsid program [arg...]
+
+Description:
+
+  setsid runs a program in a new session.
+
+  This is an ersatz setsid command for those Unixes (e.g. Mac OS X)
+  that don't have one.  It's intended to work like (or enough like)
+  the one from the util-linux-ng package that I can run the RabbitMQ
+  test suite as of Summer 2011 on a Mac OS X dev machine.
+
+  The description below is excerpted from the setsid(1) Linux man page
+  for the setsid included in the util-linux-ng package.  This setsid
+  knockoff works enough like that one for my purposes (which at the
+  time were only being able to run the version of the RabbitMQ tests that
+  were current as of the summer of 2011 on a Mac OS X development box).
+  It isn't guaranteed to be absolutely identical in all respects,
+  having been written from a quick read of the Linux original's man
+  page, rather than by porting its source.
+
+See Also:
+  setsid(2)
+
+
+
+
+
